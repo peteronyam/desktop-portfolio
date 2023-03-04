@@ -288,7 +288,6 @@
     font-size: 40px;
     line-height: 52px;
     margin-top: 112px;
-    margin-left: 600px;
     color: #091e42;
     margin-left: 907px;
   }
@@ -617,11 +616,14 @@
   background-repeat: no-repeat;
 }
 
-#work1-btn, #work1-list, #work1-paragraph {
+#work1-btn,
+#work1-list,
+#work1-paragraph {
   display: none;
 }
 
-#work2, #number5 {
+#work2,
+#number5 {
   background-image: url(./images/work2.png);
   background-position: 100%;
   background-repeat: no-repeat;
@@ -1187,7 +1189,6 @@ textarea {
   margin-top: 945px;
   margin-left: 141px;
 }
-
 
 @media only screen and (max-width: 768px) {
   * {
