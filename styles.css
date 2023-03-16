@@ -643,7 +643,7 @@
   }
 
 
-  .printing>.timely {
+  .printing > .timely {
     display: none;
   }
 
@@ -1218,7 +1218,7 @@
     color: #505f79;
   }
 
-  .base>li {
+  .base > li {
     display: flex;
     list-style-type: none;
     float: left;
@@ -1612,7 +1612,8 @@
     background-color: linear-gradient rgba(38, 38, 38, 0) 0.34% #262626 61.21%;
   }
 
-  .print-header, #work1 {
+  .print-header,
+  #work1 {
     width: 295px;
     height: 81px;
     top: 8px;
@@ -1750,7 +1751,8 @@
     flex-direction: column;
   }
 
-  .print-button, #work1-list {
+  .print-button,
+  #work1-list {
     color: #fff;
     background-color: inherit;
     border: 0;
@@ -1770,7 +1772,8 @@
     margin-top: 207px;
   }
 
-  .printing>button, #work1-btn {
+  .printing > button,
+  #work1-btn {
     width: 327px;
     height: 48px;
     margin-top: 13px;
@@ -1854,7 +1857,7 @@
     list-style-type: none;
   }
 
-  .about-list>ul {
+  .about-list > ul {
     width: 375px;
     height: 1249px;
     margin-left: 0;
@@ -2106,7 +2109,8 @@
     color: #f4f1f0;
   }
 
-  .timely, #work1-btn {
+  .timely, 
+  #work1-btn {
     width: 327px;
     height: 48px;
     margin-top: 13px;
@@ -2231,8 +2235,8 @@
     margin-top: 361px;
   }
 
-  .footer>ul {
-    filter: brightness(44%)
+  .footer > ul {
+    filter: brightness(44%);
   }
 
   .base {
@@ -2275,7 +2279,7 @@
     color: #505f79;
   }
 
-  .footer>ul>li {
+  .footer > ul > li {
     padding-left: 10px;
   }
 
