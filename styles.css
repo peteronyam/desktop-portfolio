@@ -642,7 +642,6 @@
     display: flex;
   }
 
-
   .printing > .timely {
     display: none;
   }
@@ -2109,7 +2108,7 @@
     color: #f4f1f0;
   }
 
-  .timely, 
+  .timely,
   #work1-btn {
     width: 327px;
     height: 48px;
