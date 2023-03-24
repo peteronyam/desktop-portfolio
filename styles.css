@@ -1246,6 +1246,10 @@
     width: 100%;
   }
 
+  body {
+    overflow-x: hidden;
+  }
+
   .header {
     width: 375px;
     height: 92px;
