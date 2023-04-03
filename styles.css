@@ -1096,7 +1096,7 @@
   }
 
   #last-name {
-    width: 330px;
+    width: 276px;
     height: 32px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -1312,7 +1312,7 @@
     font-size: 56px;
     line-height: 64px;
     letter-spacing: 0.37px;
-    color: #ff6b00;
+    color: #f8f1ec;
   }
 
   h3 {
@@ -2189,7 +2189,7 @@
   }
 
   textarea {
-    max-width: 310px;
+    width: 327px;
     height: 114px;
     position: absolute;
     background-color: #fbfbf7;
