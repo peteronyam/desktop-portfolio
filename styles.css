@@ -47,6 +47,43 @@
     text-decoration: none;
   }
 
+  .get-resume:hover{
+    transform: translate(42px, 18px);
+    width: 200px;
+    background-color:rgb(255, 255, 255, 0.24);
+    color:#f55800;
+    font-size: 20px;
+  }
+
+  .printing:hover{
+    transform: translate(42px, 18px);
+    background-color:rgb(255, 255, 255, 0.24);
+    color:#f55800;
+    font-size: 20px;
+    border-radius: 12px;
+  }
+
+  #work2:hover{
+    background-image: url(./images/time.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 100%;
+  }
+
+  #number5:hover{
+    background-image: url(./images/time.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 100%;
+  }
+
+  .top-section:hover{
+    background-image: url(./images/time.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 100%;
+  }
+
   svg {
     display: none;
   }
@@ -58,6 +95,13 @@
     list-style-type: none;
     float: right;
     overflow: hidden;
+  }
+  .header:hover{
+    background-color: #f55800;
+  }
+  .navigation > li > a:hover{
+    color:#fff;
+    font-size: 25px;
   }
 
   .navigation > li {
@@ -1646,6 +1690,12 @@
     line-height: 24px;
     color: #fff;
     vertical-align: top;
+  }
+  .printing:hover{
+    background-image: url(./images/time.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 100%;
   }
 
   ul {
