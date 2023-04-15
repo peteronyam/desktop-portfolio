@@ -77,10 +77,10 @@
 
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="https://peteronyam.github.io/desktop-portfolio/"></a>
 
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://peteronyam.github.io/desktop-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
