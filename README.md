@@ -77,10 +77,10 @@
 
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 To access my portfolio website, please visit<a name="https://peteronyam.github.io/desktop-portfolio/">My portfolio website</a>
 
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Online version](https://https://peteronyam.github.io/desktop-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

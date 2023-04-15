@@ -47,6 +47,76 @@
     text-decoration: none;
   }
 
+  .printing {
+    background-image: url(./images/work1.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    width: 369px;
+    margin-top: 16px;
+    height: 435px;
+    float: left;
+    top: 8px;
+    justify-content: end;
+    margin-left: 24px;
+    background-color: linear-gradient rgba(38, 38, 38, 0) 0.34% #262626 61.21%;
+  }
+
+  .printing:hover {
+    transform: translate(42px, 18px);
+    background-color: rgb(255, 255, 255, 0.24);
+    color: #f55800;
+    font-size: 20px;
+    border-radius: 12px;
+  }
+
+  input:hover {
+    transform: translate(4px, 18px);
+    background-color: rgb(255, 255, 255, 0.24);
+    font-size: 20px;
+    border: 2px solid #f55800;
+    border-radius: 12px;
+  }
+
+  #work2,
+  #number5 {
+    background-image: url(./images/work2.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+  }
+
+  #work2:hover {
+    background-image: url(./images/time.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 100%;
+  }
+
+  #number5:hover {
+    background-image: url(./images/time.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 100%;
+  }
+
+  .top-section {
+    width: 1440px;
+    height: 90vh;
+    position: absolute;
+    margin-top: 72px;
+    background-color: #1c1a19;
+    background-image: url(./images/main.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 30%;
+  }
+
+  .top-section:hover {
+    background-image: url(./images/time.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 100%;
+  }
+
   svg {
     display: none;
   }
@@ -60,8 +130,8 @@
     overflow: hidden;
   }
 
-  .navigation > li {
-    float: left;
+  .header:hover {
+    background-color: #f55800;
   }
 
   .navigation > li > a {
@@ -70,6 +140,15 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  }
+
+  .navigation > li > a:hover {
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .navigation > li {
+    float: left;
   }
 
   .portfolio {
@@ -126,18 +205,6 @@
   .top {
     width: 1339px;
     height: 100vh;
-  }
-
-  .top-section {
-    width: 1440px;
-    height: 90vh;
-    position: absolute;
-    margin-top: 72px;
-    background-color: #1c1a19;
-    background-image: url(./images/main.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: 30%;
   }
 
   #work1-btn {
@@ -487,20 +554,6 @@
     border: none;
   }
 
-  .printing {
-    background-image: url(./images/work1.png);
-    background-position: 100%;
-    background-repeat: no-repeat;
-    width: 369px;
-    margin-top: 16px;
-    height: 435px;
-    float: left;
-    top: 8px;
-    justify-content: end;
-    margin-left: 24px;
-    background-color: linear-gradient rgba(38, 38, 38, 0) 0.34% #262626 61.21%;
-  }
-
   .print-header {
     width: 295px;
     height: 81px;
@@ -660,13 +713,6 @@
     display: none;
   }
 
-  #work2,
-  #number5 {
-    background-image: url(./images/work2.png);
-    background-position: 100%;
-    background-repeat: no-repeat;
-  }
-
   #second-list {
     background-image: url(./images/nws.png);
     background-position: 100%;
@@ -726,6 +772,14 @@
     outline: none;
     border: none;
     line-height: 24px;
+  }
+
+  .get-resume:hover {
+    transform: translate(42px, 18px);
+    width: 200px;
+    background-color: rgb(255, 255, 255, 0.24);
+    color: #f55800;
+    font-size: 20px;
   }
 
   .about {
@@ -1158,6 +1212,14 @@
     margin-left: 0;
     left: 22px;
     margin-top: 467px;
+  }
+
+  textarea:hover {
+    transform: translate(4px, 18px);
+    background-color: rgb(255, 255, 255, 0.24);
+    font-size: 20px;
+    border: 2px solid #f55800;
+    border-radius: 12px;
   }
 
   .submit {
@@ -1646,6 +1708,13 @@
     line-height: 24px;
     color: #fff;
     vertical-align: top;
+  }
+
+  .printing:hover {
+    background-image: url(./images/time.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 100%;
   }
 
   ul {
