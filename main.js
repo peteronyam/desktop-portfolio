@@ -23,12 +23,3 @@ menuItems.forEach((item) => {
     });
   });
 });
-
-window.addEventListener('scroll', () => {
-  const header = document.querySelector('.header');
-  if (window.pageYOffset > 100) {
-    header.classList.add('header-fixed');
-  } else {
-    header.classList.remove('header-fixed');
-  }
-});
