@@ -33,8 +33,6 @@ window.addEventListener('scroll', () => {
   }
 });
 
-
-
 const form = document.querySelector('form');
 const emailInput = document.querySelector('#email');
 
