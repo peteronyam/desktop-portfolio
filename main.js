@@ -41,7 +41,10 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
     const error = document.createElement('p');
     error.textContent = 'Please enter your email in lower case.';
-    error.style.color = 'red';
+    error.style.color = '#f55800';
+    error.style.textAlign = 'center';
+    error.style.fontSize = '32px';
+    error.style.fontFamily = 'Inter';
     form.appendChild(error);
   }
 });
