@@ -19,7 +19,7 @@ menuItems.forEach((item) => {
     closeMobileMenu();
     const target = this.getAttribute('href');
     document.querySelector(target).scrollIntoView({
-      behavior: 'smooth';
+      behavior: 'smooth',
     });
   });
 });
