@@ -3,8 +3,7 @@
 
 /* Desktop version starts here */
 
-
-#close-button{
+#close-button {
   color: #fff;
   float: right;
   font-size: 20px;
@@ -14,7 +13,7 @@
   margin-top: -60px;
 }
 
-#menu_top{
+#menu_top {
   list-style: none;
   padding: 0;
   position: fixed;
@@ -23,13 +22,11 @@
   width: 100% !important;
   z-index: 2;
   background-color: #3c3a35;
-  flex-direction:column;
+  flex-direction: column;
   padding-top: 10vh;
   height: 100vh;
-  width: 327px;
   position: absolute;
   margin-left: -310px;
- 
 }
 
 #menu_top a {
@@ -39,7 +36,7 @@
   gap: 2em;
   margin-left: 10vw;
   line-height: 44px;
-  font-size:32px;
+  font-size: 32px;
   width: 375px;
   padding-left: 10px;
   padding-right: 60%;
@@ -47,7 +44,8 @@
 }
 
 @media only screen and (min-width: 768px) {
-    * {
+
+  * {
     max-width: 100%;
     margin: 0;
     padding: 0;
@@ -86,7 +84,7 @@
     text-decoration: none;
   }
 
-  #menu_top{
+  #menu_top {
     display: none;
   }
 
@@ -133,7 +131,7 @@
     color: #fff;
     border: 2px solid #67798e;
     margin-right: 27px;
-    font-size: 1.2rem
+    font-size: 1.2rem;
   }
   
   .top {
@@ -167,7 +165,7 @@
   }
 
   .title {
-    width: 100%x;
+    width: 100%;
     padding-top: 50px;
     margin-left: 120px;
     font-family: 'Crete Round', sans-serif;
@@ -232,8 +230,6 @@
     margin-left: 100px;
     margin-top: 150px;
   }
-
-
 
   .services-tag {
     width: 30%;
@@ -334,7 +330,6 @@
     border: none;
   }
 
-  
   .pin {
     width: 90%;
     height: inherit;
