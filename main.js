@@ -24,8 +24,6 @@ menuItems.forEach((item) => {
   });
 });
 
-
-
 window.addEventListener('scroll', () => {
   const header = document.querySelector('.header');
   if (window.pageYOffset > 100) {
