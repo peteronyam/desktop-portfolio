@@ -43,6 +43,16 @@
   border-bottom: 1px solid #6f6c6b;
 }
 
+.header-fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #3c3a39;
+  box-shadow: 0px 2px 5px rgba(253, 253, 255, 0);
+}
+
 @media only screen and (min-width: 768px) {
 
   * {
@@ -52,7 +62,8 @@
   } 
 
   body {
-    /* min-width: none; */
+    min-width: none;
+    overflow-x: hidden;
   }
 
   html {
@@ -100,6 +111,16 @@
     list-style-type: none;
     float: right;
     overflow: hidden;
+  }
+
+  .navigation li.active a {
+    text-decoration: underline;
+    color: white;
+  }
+
+  .navigation a.active {
+    color: #fff;
+    font-weight: bold;
   }
 
   .navigation > li {
