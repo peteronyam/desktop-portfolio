@@ -808,8 +808,9 @@
     align-content: flex-start;
   }
 
-  #full-name {
-    /* display: none; */
+  #first-name,
+  #last-name {
+    display: none;
   }
 
   #full-name {
@@ -1001,7 +1002,7 @@
 
   .navbar  svg {
     margin-right: 10vw;
-    width: 10% !important;
+    width: 40% !important;
     display: flex;
     float: right;
     cursor: pointer;
