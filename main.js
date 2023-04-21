@@ -12,15 +12,14 @@ mobileMenu.style.display = 'none';
 menuButton.addEventListener('click', openMobileMenu);
 closeButton.addEventListener('click', closeMobileMenu);
 
-
 const menuItems = document.querySelectorAll('#menu_top a');
 
 menuItems.forEach((item) => {
-  item.addEventListener('click', function() {
+  item.addEventListener('click', function () {
     closeMobileMenu();
     const target = this.getAttribute('href');
     document.querySelector(target).scrollIntoView({
-      behavior: 'smooth'
+      behavior: 'smooth';
     });
   });
 });
