@@ -47,15 +47,14 @@
 }
 
 @media only screen and (min-width: 768px) {
-  * {
+    * {
     max-width: 100%;
     margin: 0;
     padding: 0;
-  }
+  } 
 
   body {
-    width: 100%;
-    min-width: none;
+    /* min-width: none; */
   }
 
   html {
@@ -241,7 +240,7 @@
     height: 52px;
     font-family: 'Crete Round', sans-serif;
     font-weight: 400;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 52px;
     color: #091e42;
     margin-top: -67px;
@@ -256,9 +255,9 @@
   }
 
   .tags {
-    width: 100%;
+    width: 95vw;
     padding: 0;
-    margin-left: 100px;
+    margin-left: 84px;
   }
   
   .tag-image {
@@ -319,7 +318,7 @@
   }
 
   .See-project-btn {
-    width: 10%;
+    width: 15%;
     height: 48px;
     margin-top: 30px;
     background-color: #ff6b00;
@@ -337,12 +336,12 @@
 
   
   .pin {
-    width: 80%;
+    width: 90%;
     height: inherit;
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 5%;
     justify-content: space-between;
-    padding-left: 5%
+    /* padding-left: 5% */
   }
 
   .printing {
@@ -507,7 +506,7 @@
 
   .about-list > ul {
     font-size: 1.5rem;
-    padding-left: 43px;
+    padding-left: 6px;
     flex-wrap: wrap;
     height: 500px;
     margin-left: 15%;
@@ -776,13 +775,12 @@
   }
 
   .form-start {
+    height: 500px;
     width: 95%;
-    justify-content: center;
-    margin-left: 5%
   }
 
   .form-header {
-    width: 40%;
+    width: 45%;
     height: 256px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -794,16 +792,16 @@
     flex-grow: 0;
     color: #262626;
     margin-left: 24px;
-    margin-top: 120px;
+    /* margin-top: 120px; */
     float: left;
     padding: 0;
   }
 
   form {
-    float: right;
+    /* float: right; */
     width: 53vw;
     height: 37vh;
-    margin-top: 31px;
+    margin-top: 45px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -811,11 +809,11 @@
   }
 
   #full-name {
-    display: none;
+    /* display: none; */
   }
 
-  #First-name {
-    width: 40%;
+  #full-name {
+    width: 40rem;
     height: 32px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -831,7 +829,7 @@
     border-right: 0;
   }
 
-  #last-name {
+  /* #last-name {
     width: 40%;
     height: 32px;
     font-family: 'Inter', sans-serif;
@@ -845,7 +843,7 @@
     border-left: 0;
     border-top: 0;
     border-right: 0;
-  }
+  } */
 
   .land,
   .fame,
