@@ -35,7 +35,7 @@
 
 # 📖 [portfolio Project] <a name="about-project"></a>
 
-**[portfolio Project]** is a simple HTML and CSS webpage design from module 1 block 1 day 2 of Microverse.
+**[portfolio Project]** is a simple HTML, CSS and Javascript webpage design from module 1 of Microverse.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -96,7 +96,7 @@ In order to run this project you need:
 
 **A web Browser
 A text editor
-Basic knowledge of HTML and CSS
+Basic knowledge of HTML, CSS and JAVASCRIPT
 Git (optional)**
 
 ### Setup
@@ -170,7 +170,7 @@ Feel free to check the [issues page](../../issues/).
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Microverse fir this privilege 
+I would like to thank Microverse for this privilege 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
