@@ -56,3 +56,23 @@ form.addEventListener('submit', (event) => {
     }, 1000);
   }
 });
+
+
+let form = document.querySelector('form');
+let fullNameInput = document.querySelector('#full-name');
+let emailInput = document.querySelector('#email');
+let messageInput = document.querySelector('#message');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  let fullName = fullNameInput.value;
+  let email = emailInput.value;
+  let message = messageInput.value;
+
+  localStorage.setItem('fullName', fullName);
+  localStorage.setItem('email', email);
+  localStorage.setItem('message', message);
+
+  form.reset();
+});
