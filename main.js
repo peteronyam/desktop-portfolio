@@ -39,7 +39,7 @@ const emailInput = document.querySelector('#email');
 form.addEventListener('submit', (event) => {
   if (emailInput.value !== emailInput.value.toLowerCase()) {
     event.preventDefault();
-    const error = document.createElement('p');
+    let error = document.createElement('p');
     error.textContent = 'Please enter your email in lower case.';
     error.style.color = '#f55800';
     error.style.textAlign = 'center';
