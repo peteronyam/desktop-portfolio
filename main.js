@@ -55,5 +55,4 @@ form.addEventListener('submit', (event) => {
       error = null;
     }, 1000);
   }
-
 });
