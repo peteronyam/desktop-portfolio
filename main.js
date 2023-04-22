@@ -59,7 +59,7 @@ form.addEventListener('submit', (event) => {
 
 const time = document.querySelector('form');
 let fullNameInput = document.querySelector('#full-name');
-let emailInput = document.querySelector('#email');
+let eInput = document.querySelector('#email');
 let messageInput = document.querySelector('#message');
 
 time.addEventListener('submit', (event) => {
