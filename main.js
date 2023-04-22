@@ -57,12 +57,12 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-const form = document.querySelector('form');
+const time = document.querySelector('form');
 let fullNameInput = document.querySelector('#full-name');
 let emailInput = document.querySelector('#email');
 let messageInput = document.querySelector('#message');
 
-form.addEventListener('submit', (event) => {
+time.addEventListener('submit', (event) => {
   event.preventDefault();
 
   let fullName = fullNameInput.value;
