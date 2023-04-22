@@ -45,8 +45,8 @@ form.addEventListener('submit', (event) => {
     error.style.textAlign = 'center';
     error.style.fontSize = '32px';
     error.style.fontFamily = 'Inter';
-    error.style.marginTop = '80px'; 
-    error.style.marginLeft = '20px'
+    error.style.marginTop = '80px';
+    error.style.marginLeft = '20px';
     error.style.fontWeight = 'bold';
     error.style.width = '400px';
     form.appendChild(error);
