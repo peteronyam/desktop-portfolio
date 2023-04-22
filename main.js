@@ -18,7 +18,7 @@ const menuItems = document.querySelectorAll('#menu_top a');
 
 menuItems.forEach((item) => {
   item.addEventListener('click', function (event) {
-    event.preventDefault(); // prevent default behavior of clicking a link
+    event.preventDefault();
     closeMobileMenu();
     const target = this.getAttribute('href');
     document.querySelector(target).scrollIntoView({
