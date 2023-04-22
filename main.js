@@ -5,9 +5,11 @@ const closeButton = document.querySelector('#close-button');
 function openMobileMenu() {
   mobileMenu.style.display = 'block';
 }
+
 function closeMobileMenu() {
   mobileMenu.style.display = 'none';
 }
+
 mobileMenu.style.display = 'none';
 menuButton.addEventListener('click', openMobileMenu);
 closeButton.addEventListener('click', closeMobileMenu);
@@ -15,7 +17,8 @@ closeButton.addEventListener('click', closeMobileMenu);
 const menuItems = document.querySelectorAll('#menu_top a');
 
 menuItems.forEach((item) => {
-  item.addEventListener('click', function () {
+  item.addEventListener('click', function (event) {
+    event.preventDefault();
     closeMobileMenu();
     const target = this.getAttribute('href');
     document.querySelector(target).scrollIntoView({
@@ -34,12 +37,27 @@ window.addEventListener('scroll', () => {
 });
 
 const form = document.querySelector('form');
+const fullNameInput = document.querySelector('#full-name');
 const emailInput = document.querySelector('#email');
+const messageInput = document.querySelector('#message');
+
+window.addEventListener('load', () => {
+  const fullName = localStorage.getItem('fullName');
+  const email = localStorage.getItem('email');
+  const message = localStorage.getItem('message');
+
+  if (fullName && email && message) {
+    fullNameInput.value = fullName;
+    emailInput.value = email;
+    messageInput.value = message;
+  }
+});
 
 form.addEventListener('submit', (event) => {
-  if (emailInput.value !== emailInput.value.toLowerCase()) {
+  const email = emailInput.value.trim();
+  if (email !== email.toLowerCase()) {
     event.preventDefault();
-    let error = document.createElement('p');
+    const error = document.createElement('p');
     error.textContent = 'Please enter your email in lower case.';
     error.style.color = '#f55800';
     error.style.textAlign = 'center';
@@ -52,7 +70,15 @@ form.addEventListener('submit', (event) => {
     form.appendChild(error);
     setTimeout(() => {
       error.remove();
-      error = null;
     }, 1000);
+  } else {
+    const fullName = fullNameInput.value.trim();
+    const message = messageInput.value.trim();
+
+    localStorage.setItem('fullName', fullName);
+    localStorage.setItem('email', email);
+    localStorage.setItem('message', message);
+
+    form.reset();
   }
 });
