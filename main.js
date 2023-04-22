@@ -23,3 +23,36 @@ menuItems.forEach((item) => {
     });
   });
 });
+
+window.addEventListener('scroll', () => {
+  const header = document.querySelector('.header');
+  if (window.pageYOffset > 100) {
+    header.classList.add('header-fixed');
+  } else {
+    header.classList.remove('header-fixed');
+  }
+});
+
+const form = document.querySelector('form');
+const emailInput = document.querySelector('#email');
+
+form.addEventListener('submit', (event) => {
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    event.preventDefault();
+    let error = document.createElement('p');
+    error.textContent = 'Please enter your email in lower case.';
+    error.style.color = '#f55800';
+    error.style.textAlign = 'center';
+    error.style.fontSize = '32px';
+    error.style.fontFamily = 'Inter';
+    error.style.marginTop = '80px';
+    error.style.marginLeft = '20px';
+    error.style.fontWeight = 'bold';
+    error.style.width = '400px';
+    form.appendChild(error);
+    setTimeout(() => {
+      error.remove();
+      error = null;
+    }, 1000);
+  }
+});
