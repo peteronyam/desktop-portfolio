@@ -58,16 +58,16 @@ form.addEventListener('submit', (event) => {
 });
 
 const time = document.querySelector('form');
-let fullNameInput = document.querySelector('#full-name');
-let eInput = document.querySelector('#email');
-let messageInput = document.querySelector('#message');
+const fullNameInput = document.querySelector('#full-name');
+const eInput = document.querySelector('#email');
+const messageInput = document.querySelector('#message');
 
 time.addEventListener('submit', (event) => {
   event.preventDefault();
 
-  let fullName = fullNameInput.value;
-  let email = emailInput.value;
-  let message = messageInput.value;
+  const fullName = fullNameInput.value;
+  const email = eInput.value;
+  const message = messageInput.value;
 
   localStorage.setItem('fullName', fullName);
   localStorage.setItem('email', email);
