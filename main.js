@@ -57,8 +57,7 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-
-let form = document.querySelector('form');
+const form = document.querySelector('form');
 let fullNameInput = document.querySelector('#full-name');
 let emailInput = document.querySelector('#email');
 let messageInput = document.querySelector('#message');
